@@ -99,6 +99,8 @@ em.persist(member);
 ````java
 Member member = em.find(Member.class, "member1")
 
+//member vo의 @id annotation이 붙어있는것이 primaryKey가 된다고 한다.
+
 //EntityManager.find() 메소드 정의
 public <T> T find(Class<T> entityClass, Object primaryKey)
 ````
