@@ -40,7 +40,12 @@ EntityManager em = emf.createEntityManager();
 
 
 ```java
+Member member = em.find(Member.class, "member1")
+member.setId("member1");
+member.setUsername("회원1");
+
 em.persist(member);
+em.persist(member1);
 ```
 엔티티 매니저는 영속성 컨텍스트에 엔티티를 보관하고 관리한다.
 
