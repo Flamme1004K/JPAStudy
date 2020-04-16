@@ -1,12 +1,12 @@
-#JPA Chap3 영속성 관리
+# JPA Chap3 영속성 관리
 
 JPA가 제공하는 기능은 크게 두가지로 나눌 수 있다.
  * 엔티티와 테이블을 매핑하는 설계부분
  * 엔티티를 실제 사용하는 부분
- 
+<br><br>
  ```JPA는 엔티티를 사용하기 위해 엔티티 매니저를 사용한다. 엔티티 매니저는 엔티티를 저장하고, 수정하고, 삭제하고, 조회하는 등 엔티티와 관련된 모든 일을 처리한다. ```
  
--
+-----
 ````xml
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
@@ -58,7 +58,7 @@ em.persist(member);
 엔티티의 생명주기 
 
 ---
-##엔티티의 비영속 -> 영속 -> 삭제 상태 변화
+## 엔티티의 비영속 -> 영속 -> 삭제 상태 변화
 
 <br>
 <br>
@@ -75,7 +75,7 @@ em.persist(member);
     * 변경 감지
     * 지연 로딩
     
-￿￿￿￿￿
+
 ````java
 Member member = new Member();
 member.setId("member1");
@@ -227,7 +227,7 @@ em.remover()에 삭제 대상 엔티티를 넘겨주면 엔티티를 삭제한�
 
 
 ---
-##엔티티의 영속 -> 준영속
+## 엔티티의 영속 -> 준영속
 
 
 <img src="https://k.kakaocdn.net/dn/DQAXr/btqDqiJXBY9/kPoSzhBhGnEFDknLb1toHk/img.png">
