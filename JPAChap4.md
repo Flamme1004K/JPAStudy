@@ -129,3 +129,5 @@ JPA에서의 기본 키 생성 전략
  
  JPA책 145Page 참고바람.
  
+ JAVA8부터는 LocalData가 있기 때문에 @Temporal 대신 쓴다.
+ 
