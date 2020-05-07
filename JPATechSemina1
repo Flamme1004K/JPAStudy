@@ -1,0 +1,41 @@
+ # 우아한테크세미나CRUD JPA 세미나
+ 
+ 정상혁 발표자 강의
+ 
+ 클래스를 만들면서 만능클래스라는 개념이 나왔다.
+ 
+ ex) SuperVO 
+ 
+ ### VO와 DTO의 차이
+ 
+ 두개의 개념은 아주 다르다. 
+ 
+ 요즘은 네트워크 전송과 상관 없이 그냥 1회성 데이터 객체를 DTO라고 한다?
+ 
+ VALUE OBJECT의 특징 중 하나인 불변성이 DTO의 역할을 할 수 있게 만드는 것 
+ 
+ AGGREGATE로 ENTITY 간의 선긋기
+ 
+ AGGREGATE 1개당 REPOSITORY 1개
+ 
+ 직접참조 보다 Long을 쓰자?? 
+ 
+ 한방쿼리의 이점?
+ 
+ DB 성능에 더 유리할 수 있다.
+
+각각의 쿼리가 단순해 진다.
+
+
+Repository와 DAO의 차이?
+
+AGGREGATE 와 Repository는 1:1 관계
+
+DAO는 특별한 업데이트? 인서트일 경우 사용?
+
+https://raindrop.dooray.com/share/posts/-Fny78YURpKKPjMUgpaD6w
+
+https://github.com/benelog/entity-dev/blob/master/src/index.adoc
+
+https://benelog.github.io/entity-dev/
+
