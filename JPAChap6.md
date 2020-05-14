@@ -68,5 +68,11 @@
  그래서 보통 다대다 관계를 일대다, 다대일 관계로 풀어내는 연결 테이블을 사용한다.
  
  
+ https://www.youtube.com/watch?v=brE0tYOV9jQ&t=137s
  
+ ?? 리스트와 셋의 차이?
+ 기능? @orderBy
  
+ JPA @orderBy는 잘 안먹음
+ 
+ list set을 상황에 맞춰써야한다.
