@@ -1,2 +1,10 @@
 
 vo를 완전히 내려주지말아라.
+
+getone과 findone의 차이
+
+null처리하여 익셉션을 던져준다.
+
+jpql은 findByMember_name 조인이 된다.
+
+pagerequestof로바뀜
