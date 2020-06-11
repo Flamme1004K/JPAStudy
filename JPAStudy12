@@ -8,3 +8,5 @@ null처리하여 익셉션을 던져준다.
 jpql은 findByMember_name 조인이 된다.
 
 pagerequestof로바뀜
+
+jpaspecification도 좋다.
